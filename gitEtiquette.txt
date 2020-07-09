@@ -1,0 +1,13 @@
+GitHub etiquette
+
+1. Before working on anything in the project run: git pull <local instance> master
+2. Make use of commit messages. Short and descriptive is best.
+3. Push your changes. Since we are not all on the same schedule, this is very important.
+
+
+Terminal commands:
+
+git add .
+git commit -m "insert message here"
+git push <local instance name> master
+git pull <local instance name> master
