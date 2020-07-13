@@ -1,4 +1,4 @@
-#Mon Jul 13 17:02:27 CDT 2020
-base.0=/Users/ambrosaur/Documents/GitHub/HelpMeIT/Help-MeIT/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+#Mon Jul 13 08:38:56 CDT 2020
+base.0=/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
