@@ -84,6 +84,10 @@
         "source": "/Users/ambrosaur/Documents/GitHub/HelpMeIT/Help-MeIT/app/build/generated/res/pngs/debug/drawable-ldpi/ic_launcher_background.png"
     },
     {
+        "merged": "/Users/ambrosaur/Documents/GitHub/HelpMeIT/Help-MeIT/app/build/intermediates/res/merged/debug/drawable_desktop1_image.png.flat",
+        "source": "/Users/ambrosaur/Documents/GitHub/HelpMeIT/Help-MeIT/app/src/main/res/drawable/desktop1_image.png"
+    },
+    {
         "merged": "/Users/ambrosaur/Documents/GitHub/HelpMeIT/Help-MeIT/app/build/intermediates/res/merged/debug/drawable_console_image.png.flat",
         "source": "/Users/ambrosaur/Documents/GitHub/HelpMeIT/Help-MeIT/app/src/main/res/drawable/console_image.png"
     },

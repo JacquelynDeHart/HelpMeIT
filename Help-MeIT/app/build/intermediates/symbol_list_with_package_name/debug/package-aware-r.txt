@@ -1370,6 +1370,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable desktop1_image
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_edit_black_24dp
@@ -1505,6 +1506,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
+id console_image
 id container
 id content
 id contentPanel
@@ -1521,6 +1523,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id desktop1_image
 id dialog_button
 id dimensions
 id direct
@@ -1555,9 +1558,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageButton2
-id imageButton3
-id imageButton4
 id include4
 id info
 id invisible
@@ -1623,6 +1623,7 @@ id parent_matrix
 id password_toggle
 id peekHeight
 id percent
+id phone_image
 id pin
 id progress_circular
 id progress_horizontal
