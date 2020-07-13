@@ -37,7 +37,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.301"
-        app:srcCompat="@drawable/phone" />
+        app:srcCompat="@drawable/phone_image" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -63,7 +63,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.612"
-        app:srcCompat="@drawable/console" />
+        app:srcCompat="@drawable/console_image" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
