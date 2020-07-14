@@ -18,9 +18,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.help_meit.Console_Question1WhatSystem" />
-        <activity android:name="com.example.help_meit.Phone_Question1MakeModel" />
-        <activity android:name="com.example.help_meit.PC_Question1MakeModel" />
         <activity
             android:name="com.example.help_meit.MainActivity"
             android:label="@string/app_name"
