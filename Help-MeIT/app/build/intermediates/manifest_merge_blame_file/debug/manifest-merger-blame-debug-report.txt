@@ -6,47 +6,56 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="18"
-8-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml
+8-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml
+9-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:5:5-22:19
+11-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:5:5-25:19
 12        android:allowBackup="true"
-12-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:6:9-35
+12-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.0] /home/jacquelyn/.gradle/caches/transforms-2/files-2.1/8106c9afeb27cc0c50f85995740f877c/core-1.3.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.3.0] C:\Users\cluel\.gradle\caches\transforms-2\files-2.1\8106c9afeb27cc0c50f85995740f877c\core-1.3.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:7:9-43
+15-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:8:9-41
+16-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:9:9-54
+17-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:10:9-35
+18-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:11:9-40
-21        <activity
-21-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:12:9-21:20
-22            android:name="com.example.help_meit.MainActivity"
-22-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:13:13-41
-23            android:label="@string/app_name"
-23-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:14:13-45
-24            android:theme="@style/AppTheme.NoActionBar" >
-24-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:15:13-56
-25            <intent-filter>
-25-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:16:13-20:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:17:17-69
-26-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:17:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:19:17-77
-28-->/home/jacquelyn/Desktop/HelpMeIT/Help-MeIT/app/src/main/AndroidManifest.xml:19:27-74
-29            </intent-filter>
-30        </activity>
-31    </application>
-32
-33</manifest>
+20-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.help_meit.Console_Question1WhatSystem" />
+21-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:12:9-74
+21-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:12:19-62
+22        <activity android:name="com.example.help_meit.Phone_Question1MakeModel" />
+22-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:13:9-62
+22-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:13:19-59
+23        <activity android:name="com.example.help_meit.PC_Question1MakeModel" />
+23-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:14:9-59
+23-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:14:19-56
+24        <activity
+24-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:15:9-24:20
+25            android:name="com.example.help_meit.MainActivity"
+25-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:16:13-41
+26            android:label="@string/app_name"
+26-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:17:13-45
+27            android:theme="@style/AppTheme.NoActionBar" >
+27-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:18:13-56
+28            <intent-filter>
+28-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:20:17-69
+29-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:22:17-77
+31-->I:\Users\cluel\OneDrive\Documents\GitHub\HelpMeIT\Help-MeIT\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>

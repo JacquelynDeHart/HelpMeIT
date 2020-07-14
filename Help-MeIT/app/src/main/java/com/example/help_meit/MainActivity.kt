@@ -1,11 +1,15 @@
 package com.example.help_meit
 
+import android.content.Intent
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
-import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.ImageButton
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.google.android.material.snackbar.Snackbar
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +22,25 @@ class MainActivity : AppCompatActivity() {
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
         }
+
+        val button1 =  findViewById<View>(R.id.imageButton2) as ImageButton
+        button1.setOnClickListener{
+            val intent = Intent(this, Phone_Question1MakeModel::class.java)
+            startActivity(intent)
+        }
+
+        val button2  = findViewById<View>(R.id.imageButton3) as ImageButton
+        button2.setOnClickListener{
+            val intent = Intent(this, PC_Question1MakeModel::class.java)
+            startActivity(intent)
+        }
+
+        val button3 = findViewById<View>(R.id.imageButton4) as ImageButton
+        button3.setOnClickListener{
+            val intent = Intent(this, Console_Question1WhatSystem::class.java)
+            startActivity(intent)
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

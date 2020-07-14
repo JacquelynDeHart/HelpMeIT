@@ -1361,6 +1361,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable console
+drawable cpu
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1402,6 +1404,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable phone
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1504,6 +1507,7 @@ id container
 id content
 id contentPanel
 id coordinator
+id coordinatorLayout4
 id custom
 id customPanel
 id cut
@@ -1549,6 +1553,10 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageButton2
+id imageButton3
+id imageButton4
+id include4
 id info
 id invisible
 id italic
@@ -1682,6 +1690,9 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
+id textView2
+id textView3
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1773,7 +1784,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_console__question1_what_system
 layout activity_main
+layout activity_pc_question1_make_model
+layout activity_phone__question1_make_model
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item
