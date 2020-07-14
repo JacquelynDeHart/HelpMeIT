@@ -23,19 +23,19 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-        val button1 =  findViewById<View>(R.id.imageButton2) as ImageButton
+        val button1 =  findViewById<View>(R.id.phone_image) as ImageButton
         button1.setOnClickListener{
             val intent = Intent(this, Phone_Question1MakeModel::class.java)
             startActivity(intent)
         }
 
-        val button2  = findViewById<View>(R.id.imageButton3) as ImageButton
+        val button2  = findViewById<View>(R.id.desktop1_image) as ImageButton
         button2.setOnClickListener{
             val intent = Intent(this, PC_Question1MakeModel::class.java)
             startActivity(intent)
         }
 
-        val button3 = findViewById<View>(R.id.imageButton4) as ImageButton
+        val button3 = findViewById<View>(R.id.console_image) as ImageButton
         button3.setOnClickListener{
             val intent = Intent(this, Console_Question1WhatSystem::class.java)
             startActivity(intent)
