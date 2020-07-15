@@ -13,4 +13,13 @@
     <string name="PC_question_one">PC Question 1</string>
     <string name="Phone_question_one">Phone Question 1</string>
     <string name="Console_question_one">Console Question 1</string>
+
+    <string name="select_textstring">Select which one you need assistance on:</string>
+    <string name="phone_textstring">Mobile Phone</string>
+    <string name="PC_textstring">Laptop / Desktop</string>
+    <string name="console_textstring">Gaming Console</string>
+
+    <string name="phone_description">phone icon</string>
+    <string name="PC_description">PC icon</string>
+    <string name="console_description">console icon</string>
 </resources>

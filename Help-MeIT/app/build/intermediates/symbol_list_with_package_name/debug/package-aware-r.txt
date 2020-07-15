@@ -1524,6 +1524,7 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id desktop1_image
+id desktop_text
 id dialog_button
 id dimensions
 id direct
@@ -1546,6 +1547,7 @@ id filter_chip
 id fitToContents
 id fixed
 id forever
+id gconsole_text
 id ghost_view
 id ghost_view_holder
 id gone
@@ -1653,6 +1655,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id selection_text_1
 id shortcut
 id showCustom
 id showHome
@@ -1696,6 +1699,7 @@ id textStart
 id textView
 id textView2
 id textView3
+id textView6
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -1866,7 +1870,9 @@ mipmap ic_launcher_round
 navigation nav_graph
 plurals mtrl_badge_content_description
 string Console_question_one
+string PC_description
 string PC_question_one
+string PC_textstring
 string Phone_question_one
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -1904,6 +1910,8 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string console_description
+string console_textstring
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -1955,9 +1963,12 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string phone_description
+string phone_textstring
 string previous
 string search_menu_title
 string second_fragment_label
+string select_textstring
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
