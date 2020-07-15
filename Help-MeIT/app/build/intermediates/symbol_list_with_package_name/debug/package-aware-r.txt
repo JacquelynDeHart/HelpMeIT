@@ -1417,6 +1417,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id FirstFragment
+id IT_support
 id META
 id SHIFT
 id SYM
@@ -1970,6 +1971,7 @@ string search_menu_title
 string second_fragment_label
 string select_textstring
 string status_bar_notification_info_overflow
+string title
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

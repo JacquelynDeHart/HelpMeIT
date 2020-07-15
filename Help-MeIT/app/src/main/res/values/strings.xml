@@ -14,7 +14,8 @@
     <string name="Phone_question_one">Phone Question 1</string>
     <string name="Console_question_one">Console Question 1</string>
 
-    <string name="select_textstring">Select which one you need assistance on:</string>
+    <string name="title">IT Support Service</string>
+    <string name="select_textstring">Select which device you need assistance on:</string>
     <string name="phone_textstring">Mobile Phone</string>
     <string name="PC_textstring">Laptop / Desktop</string>
     <string name="console_textstring">Gaming Console</string>
