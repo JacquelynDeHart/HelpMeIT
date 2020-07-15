@@ -23,4 +23,6 @@
     <string name="phone_description">phone icon</string>
     <string name="PC_description">PC icon</string>
     <string name="console_description">console icon</string>
+
+    <string name="mobile_phone">Mobile Phone</string>
 </resources>

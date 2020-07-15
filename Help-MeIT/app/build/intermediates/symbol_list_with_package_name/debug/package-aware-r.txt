@@ -1656,6 +1656,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id selection_text_
 id selection_text_1
 id shortcut
 id showCustom
@@ -1713,6 +1714,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toolbar
+id toolbar2
 id top
 id topPanel
 id touch_outside
@@ -1922,6 +1924,7 @@ string hello_first_fragment
 string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string mobile_phone
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_suffix
