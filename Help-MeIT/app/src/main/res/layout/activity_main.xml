@@ -81,13 +81,11 @@
         app:layout_constraintVertical_bias="0.0"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
 
-    <EditText
+    <TextView
         android:id="@+id/selection_text_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
         android:text="@string/select_textstring"
-        android:importantForAutofill="no"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -97,13 +95,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.168" />
 
-    <EditText
+    <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
         android:text="@string/phone_textstring"
-        android:importantForAutofill="no"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -111,13 +107,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/desktop_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
         android:text="@string/PC_textstring"
-        android:importantForAutofill="no"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -125,13 +119,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
+    <TextView
         android:id="@+id/gconsole_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="text"
         android:text="@string/console_textstring"
-        android:importantForAutofill="no"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
