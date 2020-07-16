@@ -9,9 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Console_Question1WhatSystem"></activity>
+        <activity android:name=".Console_Question5"></activity>
+        <activity android:name=".Console_Question4" />
+        <activity android:name=".Console_Question3" />
+        <activity android:name=".Console_Question2" />
+        <activity android:name=".Phone_Question6" />
+        <activity android:name=".Phone_Question5" />
+        <activity android:name=".Phone_Question4" />
+        <activity android:name=".Phone_Question3" />
+        <activity android:name=".Phone_Question2" />
+        <activity android:name=".PC_Question5" />
+        <activity android:name=".PC_Question4" />
+        <activity android:name=".PC_Question3" />
+        <activity android:name=".PC_Question2" />
+        <activity android:name=".Console_Question1WhatSystem" />
         <activity android:name=".Phone_Question1MakeModel" />
-        <activity android:name=".PC_Question1MakeModel" />
+        <activity android:name=".PC_Question1" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"

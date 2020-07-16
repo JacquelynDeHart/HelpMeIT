@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         val button2  = findViewById<View>(R.id.desktop1_image) as ImageButton
         button2.setOnClickListener{
-            val intent = Intent(this, PC_Question1MakeModel::class.java)
+            val intent = Intent(this, PC_Question1::class.java)
             startActivity(intent)
         }
 
