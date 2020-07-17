@@ -13,19 +13,19 @@ class Phone_Question4 : AppCompatActivity() {
         setContentView(R.layout.activity_phone__question4)
 
         val btn_yesq4 = findViewById<View>(R.id.btn_yes) as Button
-        btn_yes.setOnClickListener {
+        btn_yesq4.setOnClickListener {
             btn_next.setVisibility(View.VISIBLE)
             text_phoneq4.setVisibility(View.INVISIBLE)
         }
 
         val btn_noq4 = findViewById<View>(R.id.btn_no) as Button
-        btn_no.setOnClickListener {
+        btn_noq4.setOnClickListener {
             text_phoneq4.setVisibility(View.VISIBLE)
             btn_next.setVisibility(View.INVISIBLE)
         }
 
         val btn_nextq4 = findViewById<View>(R.id.btn_next) as Button
-        btn_next.setOnClickListener {
+        btn_nextq4.setOnClickListener {
             val intent = Intent(this, Phone_Question5::class.java)
             startActivity(intent)
         }
