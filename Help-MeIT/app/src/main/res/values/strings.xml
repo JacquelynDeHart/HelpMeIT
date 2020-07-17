@@ -34,4 +34,10 @@
     <string name="btn_yes">YES</string>
     <string name="btn_no">NO</string>
     <string name="txt_no">The power button is your only hope</string>
+    
+    <string name="txt_areYouSure">Are you sure?</string>
+    <string name="txt_notSure">Well turn it on then!</string>
+    
+    <string name="txt_reset">Have you reset it?</string>
+    <string name="txt_offOn">Turn it off and on again!!!</string>
 </resources>
