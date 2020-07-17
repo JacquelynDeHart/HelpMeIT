@@ -40,4 +40,17 @@
     
     <string name="txt_reset">Have you reset it?</string>
     <string name="txt_offOn">Turn it off and on again!!!</string>
+
+    <string name="txt_inRice">Have you put it in a container of rice?</string>
+    <string name="txt_yesRice">Do not cook it. Wait for 24 hours.</string>
+    <string name="txt_noRice">Fill a container up with dry rice and leave it in there for at least 24 hours. No cheating on the time.</string>
+    <string name="txt_maybeRice">How do you not know?!?</string>
+    <string name="btn_maybeRice">"???"</string>
+
+    <string name="txt_isItWorking">Is it working now?</string>
+    <string name="txt_isWorking">"You're Welcome! Now go away."</string>
+    <string name="txt_notWorking">Go ask Google. Maybe they can help you.</string>
+    <string name="btn_menuReturn">Return to Menu</string>
+
+
 </resources>

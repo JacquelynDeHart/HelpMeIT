@@ -15,6 +15,7 @@ class Phone_Question4 : AppCompatActivity() {
         val btn_yesq4 = findViewById<View>(R.id.btn_yes) as Button
         btn_yes.setOnClickListener {
             btn_next.setVisibility(View.VISIBLE)
+            text_phoneq4.setVisibility(View.INVISIBLE)
         }
 
         val btn_noq4 = findViewById<View>(R.id.btn_no) as Button
