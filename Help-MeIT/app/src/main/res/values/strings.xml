@@ -7,8 +7,6 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
     <string name="PC_question_one">PC Question 1</string>
     <string name="Phone_question_one">What is the make of your device?</string>
@@ -30,4 +28,10 @@
     <string name="rbtn_other">Other</string>
     <string name="btn_select">Select</string>
     <string name="txt_tort">Something</string>
+    <string name="btn_next">Next</string>
+
+    <string name="txt_isItOn">Is it on?</string>
+    <string name="btn_yes">YES</string>
+    <string name="btn_no">NO</string>
+    <string name="txt_no">The power button is your only hope</string>
 </resources>
