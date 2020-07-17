@@ -10,7 +10,7 @@
 
     <string name="PC_question_one">PC Question 1</string>
     <string name="Phone_question_one">What is the make of your device?</string>
-    <string name="Console_question_one">Console Question 1</string>
+    <string name="Console_question_one">What is the brand of your gaming console?</string>
 
     <string name="title">IT Support Service</string>
     <string name="select_textstring">Select which device you need assistance on:</string>
@@ -54,6 +54,10 @@
     <string name="txt_isWorking">"You're Welcome! Now go away."</string>
     <string name="txt_notWorking">Go ask Google. Maybe they can help you.</string>
     <string name="btn_menuReturn">Return to Menu</string>
+
+    <string name="rbtn_xbox">Xbox</string>
+    <string name="rbtn_playstation">Playstation</string>
+    <string name="rbtn_switch">Nintendo Switch</string>
 
 
 </resources>
