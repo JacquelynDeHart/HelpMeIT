@@ -9,6 +9,7 @@ import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
+import kotlinx.android.synthetic.main.activity_main.*
 
 
 class MainActivity : AppCompatActivity() {
@@ -23,24 +24,20 @@ class MainActivity : AppCompatActivity() {
                     .setAction("Action", null).show()
         }
 
-        val button1 =  findViewById<View>(R.id.phone_image) as ImageButton
-        button1.setOnClickListener{
+        phone_image.setOnClickListener{
             val intent = Intent(this, Phone_Question1MakeModel::class.java)
             startActivity(intent)
         }
 
-        val button2  = findViewById<View>(R.id.desktop1_image) as ImageButton
-        button2.setOnClickListener{
+        desktop1_image.setOnClickListener{
             val intent = Intent(this, PC_Question1::class.java)
             startActivity(intent)
         }
 
-        val button3 = findViewById<View>(R.id.console_image) as ImageButton
-        button3.setOnClickListener{
+        console_image.setOnClickListener{
             val intent = Intent(this, Console_Question1WhatSystem::class.java)
             startActivity(intent)
         }
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

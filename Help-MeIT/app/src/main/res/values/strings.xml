@@ -26,8 +26,11 @@
     <string name="rbtn_google">Google</string>
     <string name="rbtn_samsung">Samsung</string>
     <string name="rbtn_other">Other</string>
+    <string name="rbtn_apple">Apple</string>
+    <string name="rbtn_hp">HP</string>
     <string name="btn_select">Select</string>
     <string name="txt_tort">Something</string>
+    <string name="txt_tort_pc_question1">You have horrible taste. Dismissed!</string>
     <string name="btn_next">Next</string>
 
     <string name="txt_isItOn">Is it on?</string>
