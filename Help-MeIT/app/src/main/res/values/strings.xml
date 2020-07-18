@@ -64,6 +64,10 @@
     <string name="txt_q1_xbox">PC is better. Consider upgrading yourself.</string>
     <string name="txt_q1_playstation">Your gaming choices are questionable.</string>
     <string name="txt_q1_switch">Oh that’s cute, really?</string>
+    <string name="txt_xbox_select">You selected: XBOX</string>
+    <string name="txt_ps_select">You selected: PLAYSTATION</string>
+    <string name="txt_switch_select">You selected: NINTENDO SWITCH</string>
     <string name="btn_selectc1">Select</string>
+
 
 </resources>

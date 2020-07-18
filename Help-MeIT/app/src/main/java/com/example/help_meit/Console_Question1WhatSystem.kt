@@ -25,18 +25,24 @@ class Console_Question1WhatSystem : AppCompatActivity() {
             if (id != -1) { // If any radio button checked from radio group
                 if (rbtn_xbox.isChecked()) {
                     txt_q1_xbox.setVisibility(View.VISIBLE)
+                    txt_xbox_select.setVisibility(View.VISIBLE)
                     btn_nextc1.setVisibility(View.VISIBLE)
-                    radioGroup.setVisibility(View.INVISIBLE)
+                    btn_selectc1.setVisibility(View.INVISIBLE)
+                    radioGroup.setVisibility(View.VISIBLE)
                 }
                 else if (rbtn_playstation.isChecked()) {
                     txt_q1_playstation.setVisibility(View.VISIBLE)
+                    txt_ps_select.setVisibility(View.VISIBLE)
                     btn_nextc1.setVisibility(View.VISIBLE)
-                    radioGroup.setVisibility(View.INVISIBLE)
+                    btn_selectc1.setVisibility(View.INVISIBLE)
+                    radioGroup.setVisibility(View.VISIBLE)
                 }
                 else if (rbtn_switch.isChecked()) {
                     txt_q1_switch.setVisibility(View.VISIBLE)
+                    txt_switch_select.setVisibility(View.VISIBLE)
                     btn_nextc1.setVisibility(View.VISIBLE)
-                    radioGroup.setVisibility(View.INVISIBLE)
+                    btn_selectc1.setVisibility(View.INVISIBLE)
+                    radioGroup.setVisibility(View.VISIBLE)
                 }
             }
         }
