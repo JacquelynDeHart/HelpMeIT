@@ -48,7 +48,7 @@
             app:layout_constraintVertical_bias="0.197" />
 
         <TextView
-            android:id="@+id/selection_text_"
+            android:id="@+id/selection_text_console"
             android:layout_width="301dp"
             android:layout_height="65dp"
             android:layout_marginStart="8dp"
@@ -81,7 +81,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_xbox" />
-
             <RadioButton
                 android:id="@+id/rbtn_playstation"
                 android:layout_width="match_parent"
@@ -97,16 +96,78 @@
         </RadioGroup>
 
         <Button
-            android:id="@+id/btn_commit"
+            android:id="@+id/btn_selectc1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="136dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="137dp"
-            android:text="@string/btn_select"
+            android:text="@string/btn_selectc1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+        <TextView
+            android:id="@+id/txt_q1_xbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_q1_xbox"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.676" />
+
+        <TextView
+            android:id="@+id/txt_q1_playstation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_q1_playstation"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.676" />
+
+        <TextView
+            android:id="@+id/txt_q1_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_q1_switch"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.676" />
+
+        <Button
+            android:id="@+id/btn_nextc1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_nextc1"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_q1_xbox" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
