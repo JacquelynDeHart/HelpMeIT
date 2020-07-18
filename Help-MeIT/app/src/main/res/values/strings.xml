@@ -58,6 +58,12 @@
     <string name="rbtn_xbox">Xbox</string>
     <string name="rbtn_playstation">Playstation</string>
     <string name="rbtn_switch">Nintendo Switch</string>
+    <string name="btn_nextc1">Next</string>
 
+
+    <string name="txt_q1_xbox">PC is better. Consider upgrading yourself.</string>
+    <string name="txt_q1_playstation">Your gaming choices are questionable.</string>
+    <string name="txt_q1_switch">Oh that’s cute, really?</string>
+    <string name="btn_selectc1">Select</string>
 
 </resources>
