@@ -28,6 +28,7 @@ class Phone_Question6 : AppCompatActivity() {
         val btn_menuq6phone = findViewById<View>(R.id.btn_menuq6phone) as Button
         btn_menuq6phone.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }
     }

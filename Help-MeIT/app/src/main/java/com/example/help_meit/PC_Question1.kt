@@ -1,17 +1,11 @@
 package com.example.help_meit
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
-import android.content.Context
 import android.content.Intent
 import android.os.Build
+import android.os.Bundle
 import android.view.View
-import android.widget.Button
-import android.widget.RadioButton
 import androidx.annotation.RequiresApi
-import androidx.core.view.isVisible
-import android.widget.RadioGroup
-import kotlinx.android.synthetic.main.activity_main.*
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_p_c_question1.*
 
 class PC_Question1 : AppCompatActivity() {
@@ -22,6 +16,7 @@ class PC_Question1 : AppCompatActivity() {
 
         btn_next.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             startActivity(intent)
         }
 
