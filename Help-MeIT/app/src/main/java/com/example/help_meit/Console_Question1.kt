@@ -4,15 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import kotlinx.android.synthetic.main.activity_console__question1_what_system.*
-import kotlinx.android.synthetic.main.activity_p_c_question1.*
-import kotlinx.android.synthetic.main.activity_p_c_question1.btn_commit
-import kotlinx.android.synthetic.main.activity_p_c_question1.radioGroup
+import kotlinx.android.synthetic.main.activity_console__question1.*
 
-class Console_Question1WhatSystem : AppCompatActivity() {
+class Console_Question1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_console__question1_what_system)
+        setContentView(R.layout.activity_console__question1)
 
         btn_nextc1.setOnClickListener{
             val intent = Intent(this, Console_Question2::class.java)
@@ -29,21 +26,21 @@ class Console_Question1WhatSystem : AppCompatActivity() {
                     txt_xbox_select.setVisibility(View.VISIBLE)
                     btn_nextc1.setVisibility(View.VISIBLE)
                     btn_selectc1.setVisibility(View.INVISIBLE)
-                    radioGroup.setVisibility(View.VISIBLE)
+                    radioGroup.setVisibility(View.INVISIBLE)
                 }
                 else if (rbtn_playstation.isChecked()) {
                     txt_q1_playstation.setVisibility(View.VISIBLE)
                     txt_ps_select.setVisibility(View.VISIBLE)
                     btn_nextc1.setVisibility(View.VISIBLE)
                     btn_selectc1.setVisibility(View.INVISIBLE)
-                    radioGroup.setVisibility(View.VISIBLE)
+                    radioGroup.setVisibility(View.INVISIBLE)
                 }
                 else if (rbtn_switch.isChecked()) {
                     txt_q1_switch.setVisibility(View.VISIBLE)
                     txt_switch_select.setVisibility(View.VISIBLE)
                     btn_nextc1.setVisibility(View.VISIBLE)
                     btn_selectc1.setVisibility(View.INVISIBLE)
-                    radioGroup.setVisibility(View.VISIBLE)
+                    radioGroup.setVisibility(View.INVISIBLE)
                 }
             }
         }
