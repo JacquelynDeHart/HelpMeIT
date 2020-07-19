@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.annotation.RequiresApi
+import kotlinx.android.synthetic.main.activity_console__question1.*
 import kotlinx.android.synthetic.main.activity_phone__question1.*
+import kotlinx.android.synthetic.main.activity_phone__question1.radioGroup
 
 
 class Phone_Question1 : AppCompatActivity() {
@@ -16,9 +18,35 @@ class Phone_Question1 : AppCompatActivity() {
         setContentView(R.layout.activity_phone__question1)
 
         btn_commit.setOnClickListener {
-            txt_retort.setVisibility(View.VISIBLE)
-            btn_next.setVisibility(View.VISIBLE)
-            radioGroup.setVisibility(View.INVISIBLE)
+
+//logic for radio button selection//
+            val id: Int = radioGroup.checkedRadioButtonId
+            if (id != -1) { // If any radio button checked from radio group
+                if (rbtn_Google.isChecked()) {
+                    txt_retort.setVisibility(View.VISIBLE)
+                    btn_next.setVisibility(View.VISIBLE)
+                    btn_commit.setVisibility(View.INVISIBLE)
+                    radioGroup.setVisibility(View.INVISIBLE)
+                    textView_samsungPhoneq1.setVisibility(View.INVISIBLE)
+                    textView_otherPhoneq1.setVisibility(View.INVISIBLE)
+                }
+                else if (rbtn_Samsung.isChecked()) {
+                    textView_samsungPhoneq1.setVisibility(View.VISIBLE)
+                    btn_next.setVisibility(View.VISIBLE)
+                    btn_commit.setVisibility(View.INVISIBLE)
+                    radioGroup.setVisibility(View.INVISIBLE)
+                    txt_retort.setVisibility(View.INVISIBLE)
+                    textView_otherPhoneq1.setVisibility(View.INVISIBLE)
+                }
+                else if (rbtn_Other.isChecked()) {
+                    textView_otherPhoneq1.setVisibility(View.VISIBLE)
+                    btn_next.setVisibility(View.VISIBLE)
+                    btn_commit.setVisibility(View.INVISIBLE)
+                    radioGroup.setVisibility(View.INVISIBLE)
+                    txt_retort.setVisibility(View.INVISIBLE)
+                    textView_samsungPhoneq1.setVisibility(View.INVISIBLE)
+                }
+            }
         }
 
         btn_next.setOnClickListener {

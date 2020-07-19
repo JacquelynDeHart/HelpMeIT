@@ -22,7 +22,9 @@
     <string name="rbtn_apple">Apple</string>
     <string name="rbtn_hp">HP</string>
     <string name="btn_select">Select</string>
-    <string name="txt_tort">Something</string>
+    <string name="txt_tort">"Drinking the Kool-Aid, huh"</string>
+    <string name="txt_samsung">"You must really like bloatware apps eating your memory"</string>
+    <string name="txt_other">What are you even doing with that trash? Dismissed.</string>
 
     <string name="btn_next">Next</string>
 
