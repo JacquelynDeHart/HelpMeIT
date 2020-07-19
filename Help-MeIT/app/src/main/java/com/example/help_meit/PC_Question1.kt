@@ -6,13 +6,13 @@ import android.os.Bundle
 import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_p_c_question1.*
+import kotlinx.android.synthetic.main.activity_p_c__question1.*
 
 class PC_Question1 : AppCompatActivity() {
     @RequiresApi(Build.VERSION_CODES.Q)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_p_c_question1)
+        setContentView(R.layout.activity_p_c__question1)
 
         btn_next.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)

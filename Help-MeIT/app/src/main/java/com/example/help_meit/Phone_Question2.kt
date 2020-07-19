@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.Button
 import kotlinx.android.synthetic.main.activity_phone__question2.*
 
 class Phone_Question2 : AppCompatActivity() {
@@ -13,7 +12,7 @@ class Phone_Question2 : AppCompatActivity() {
         setContentView(R.layout.activity_phone__question2)
 
         btn_yes.setOnClickListener {
-            text_phone_q2.setVisibility(View.INVISIBLE)
+            textView_reply_no.setVisibility(View.INVISIBLE)
             btn_next.setVisibility(View.VISIBLE)
         }
 
@@ -24,7 +23,7 @@ class Phone_Question2 : AppCompatActivity() {
         }
 
         btn_no.setOnClickListener {
-            text_phone_q2.setVisibility(View.VISIBLE)
+            textView_reply_no.setVisibility(View.VISIBLE)
             btn_next.setVisibility(View.INVISIBLE)
         }
     }

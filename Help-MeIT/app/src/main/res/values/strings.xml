@@ -1,16 +1,9 @@
 <resources>
     <string name="app_name">Help-MeIT</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
+    <string name="txt_phoneQ1">What is the make of your device?</string>
 
-    <string name="PC_question_one">PC Question 1</string>
-    <string name="Phone_question_one">What is the make of your device?</string>
-    <string name="Console_question_one">What is the brand of your gaming console?</string>
 
     <string name="title">IT Support Service</string>
     <string name="select_textstring">Select which device you need assistance on:</string>
@@ -30,7 +23,7 @@
     <string name="rbtn_hp">HP</string>
     <string name="btn_select">Select</string>
     <string name="txt_tort">Something</string>
-    <string name="txt_tort_pc_question1">You have horrible taste. Dismissed!</string>
+
     <string name="btn_next">Next</string>
 
     <string name="txt_isItOn">Is it on?</string>
@@ -59,23 +52,26 @@
     <string name="rbtn_playstation">Playstation</string>
     <string name="rbtn_switch">Nintendo Switch</string>
     <string name="btn_nextc1">Next</string>
+    <string name="btn_selectc1">Select</string>
 
-
+    <!-- Console Question strings -->
+    <string name="txt_consoleQ1">What is the brand of your gaming console?</string>
     <string name="txt_q1_xbox">PC is better. Consider upgrading yourself.</string>
     <string name="txt_q1_playstation">Your gaming choices are questionable.</string>
     <string name="txt_q1_switch">Oh that’s cute, really?</string>
     <string name="txt_xbox_select">You selected: XBOX</string>
     <string name="txt_ps_select">You selected: PLAYSTATION</string>
     <string name="txt_switch_select">You selected: NINTENDO SWITCH</string>
-    <string name="btn_selectc1">Select</string>
+
 
     <!-- PC Question strings -->
-    <string name="txt_restart">Have you tried turning it off and on again?</string>
+    <string name="txt_pcQ1_retort">You have horrible taste. Dismissed!</string>
+    <string name="txt_pcQ2">Have you tried turning it off and on again?</string>
     <string name="txt_pcQ2_no">What are you waiting for?!</string>
     <string name="txt_pcQ4">Is it even plugged in?</string>
     <string name="txt_pcQ4_yes">That\'s all I got</string>
     <string name="txt_pcQ4_no">So plug it in you nitwit!</string>
     <string name="txt_pcQ5_yes">Fantastic! Now go away.</string>
-    <string name="txt_pcQ5_no">There is no help for you here.</string>
+    <string name="txt_pcQ5_no">The problem is between the chair and the keyboard.</string>
     <string name="txt_pcQ3_no">Well turn it off and on then!</string>
 </resources>
