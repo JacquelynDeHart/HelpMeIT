@@ -27,16 +27,19 @@ class MainActivity : AppCompatActivity() {
         phone_image.setOnClickListener{
             val intent = Intent(this, Phone_Question1MakeModel::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
         desktop1_image.setOnClickListener{
             val intent = Intent(this, PC_Question1::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
         console_image.setOnClickListener{
             val intent = Intent(this, Console_Question1WhatSystem::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
     }
 

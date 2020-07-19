@@ -22,11 +22,16 @@ class Phone_Question2 : AppCompatActivity() {
         btn_nxt.setOnClickListener {
             val intent = Intent(this, Phone_Question3::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
         val btn_no = findViewById<View>(R.id.btn_no) as Button
         btn_no.setOnClickListener {
             text_phone_q2.setVisibility(View.VISIBLE)
             btn_nxt.setVisibility(View.INVISIBLE)
         }
+    }
+    override fun finish() {
+        super.finish()
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
     }
 }

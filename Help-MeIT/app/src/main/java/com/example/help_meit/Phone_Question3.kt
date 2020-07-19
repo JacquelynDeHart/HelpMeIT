@@ -28,6 +28,11 @@ class Phone_Question3 : AppCompatActivity() {
         btn_nextq3.setOnClickListener {
             val intent = Intent(this, Phone_Question4::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
+    }
+    override fun finish() {
+        super.finish()
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
     }
 }

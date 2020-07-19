@@ -23,7 +23,9 @@
         <activity android:name=".PC_Question3" />
         <activity android:name=".PC_Question2" />
         <activity android:name=".Console_Question1WhatSystem" />
-        <activity android:name=".Phone_Question1MakeModel" />
+        <activity android:name=".Phone_Question1MakeModel"
+            android:label="Help-MeIT"
+            />
         <activity android:name=".PC_Question1" />
         <activity
             android:name=".MainActivity"

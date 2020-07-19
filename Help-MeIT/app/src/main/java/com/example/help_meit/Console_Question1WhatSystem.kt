@@ -17,6 +17,7 @@ class Console_Question1WhatSystem : AppCompatActivity() {
         btn_nextc1.setOnClickListener{
             val intent = Intent(this, Console_Question2::class.java)
             startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
         btn_selectc1.setOnClickListener {
@@ -46,5 +47,9 @@ class Console_Question1WhatSystem : AppCompatActivity() {
                 }
             }
         }
+    }
+    override fun finish() {
+        super.finish()
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
     }
 }

@@ -29,4 +29,8 @@ class Console_Question2 : AppCompatActivity() {
             btn_nxt.setVisibility(View.INVISIBLE)
         }
     }
+    override fun finish() {
+        super.finish()
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
+    }
 }
