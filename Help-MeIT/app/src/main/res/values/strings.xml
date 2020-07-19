@@ -69,5 +69,13 @@
     <string name="txt_switch_select">You selected: NINTENDO SWITCH</string>
     <string name="btn_selectc1">Select</string>
 
-
+    <!-- PC Question strings -->
+    <string name="txt_restart">Have you tried turning it off and on again?</string>
+    <string name="txt_pcQ2_no">What are you waiting for?!</string>
+    <string name="txt_pcQ4">Is it even plugged in?</string>
+    <string name="txt_pcQ4_yes">That\'s all I got</string>
+    <string name="txt_pcQ4_no">So plug it in you nitwit!</string>
+    <string name="txt_pcQ5_yes">Fantastic! Now go away.</string>
+    <string name="txt_pcQ5_no">There is no help for you here.</string>
+    <string name="txt_pcQ3_no">Well turn it off and on then!</string>
 </resources>

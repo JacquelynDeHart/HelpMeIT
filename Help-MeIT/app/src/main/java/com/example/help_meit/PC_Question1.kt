@@ -28,6 +28,7 @@ class PC_Question1 : AppCompatActivity() {
                 if (rbtn_Google.isChecked() || rbtn_hp.isChecked()) {
                     val intent = Intent(this, PC_Question2::class.java)
                     startActivity(intent)
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
                 } else if (rbtn_Other.isChecked()) {
                     txt_retort.setVisibility(View.VISIBLE)
                     btn_next.setVisibility(View.VISIBLE)
