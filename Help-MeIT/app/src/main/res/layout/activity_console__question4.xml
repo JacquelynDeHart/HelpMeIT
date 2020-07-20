@@ -71,12 +71,12 @@
 
         <TextView
             android:id="@+id/txt_consoleQ4A1"
-            android:layout_width="340dp"
-            android:layout_height="207dp"
+            android:layout_width="330dp"
+            android:layout_height="199dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="120dp"
             android:layout_marginEnd="20dp"
-            android:text="@string/txt_consoleQ3A1"
+            android:text="@string/txt_consoleQ4A1"
             android:textAlignment="center"
             android:textSize="30sp"
             android:visibility="invisible"
@@ -89,8 +89,8 @@
 
         <TextView
             android:id="@+id/txt_consoleQ4A2"
-            android:layout_width="325dp"
-            android:layout_height="47dp"
+            android:layout_width="330dp"
+            android:layout_height="199dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="120dp"
             android:layout_marginEnd="20dp"
@@ -100,7 +100,7 @@
             android:visibility="invisible"
             app:layout_constraintBottom_toTopOf="@+id/btn_next"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_consoleQ4_1"
             app:layout_constraintVertical_bias="0.0" />

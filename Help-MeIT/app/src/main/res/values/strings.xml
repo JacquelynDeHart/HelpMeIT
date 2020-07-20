@@ -73,8 +73,8 @@
     <string name="txt_consoleQ3A1">Stop right there. We can’t help you further, you need to replace your console or check your insurance.</string>
     <string name="txt_consoleQ3A2">Let’s move on then…</string>
     <string name="txt_consoleQ4">Have you tried to reset your system? </string>
-    <string name="txt_consoleQ4A1">We do not know why it is not working by now</string>
-    <string name="txt_consoleQ4A2">That should have been the first thing you did</string>
+    <string name="txt_consoleQ4A1">That should have done the trick! We’re going to give up soon.</string>
+    <string name="txt_consoleQ4A2">C’mon! That should have been the first thing you did!</string>
 
 
     <!-- PC Question strings -->
