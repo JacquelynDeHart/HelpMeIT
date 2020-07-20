@@ -76,6 +76,9 @@
     <string name="txt_consoleQ4A1">That should have done the trick! We’re going to give up soon.</string>
     <string name="txt_consoleQ4A2">C’mon! That should have been the first thing you did!</string>
     <string name="txt_consoleQ5A2">That’s surprising that you haven’t dropped/damaged that ancient thing.</string>
+    <string name="txt_consoleQ6">Is your device functioning yet?</string>
+    <string name="txt_consoleQ6A1">Good, thank you for using our service. You can close the app now.</string>
+    <string name="txt_consoleQ6A2">Go by a PC for your games, we obviously can’t help you.</string>
 
 
     <!-- PC Question strings -->
