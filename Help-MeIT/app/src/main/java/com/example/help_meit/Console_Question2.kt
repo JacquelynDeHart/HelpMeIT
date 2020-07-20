@@ -21,16 +21,24 @@ class Console_Question2 : AppCompatActivity() {
             txt_consoleA1.setVisibility(View.VISIBLE)
             txt_consoleA2.setVisibility(View.INVISIBLE)
             btn_next.setVisibility(View.VISIBLE)
+            btn_next1.setVisibility(View.INVISIBLE)
         }
 
         btn_consoleQ2_2.setOnClickListener {
             txt_consoleA2.setVisibility(View.VISIBLE)
             txt_consoleA1.setVisibility(View.INVISIBLE)
-            btn_next.setVisibility(View.VISIBLE)
+            btn_next1.setVisibility(View.VISIBLE)
+            btn_next.setVisibility(View.INVISIBLE)
         }
 
         btn_next.setOnClickListener {
             val intent = Intent(this, Console_Question3::class.java)
+            startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+        }
+
+        btn_next1.setOnClickListener {
+            val intent = Intent(this, Console_Question5::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
