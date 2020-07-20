@@ -64,6 +64,17 @@
     <string name="txt_xbox_select">You selected: XBOX</string>
     <string name="txt_ps_select">You selected: PLAYSTATION</string>
     <string name="txt_switch_select">You selected: NINTENDO SWITCH</string>
+    <string name="txt_consoleQ2">How old is the system?</string>
+    <string name="txt_consoleQ2_1">0-1 year</string>
+    <string name="txt_consoleQ2_2">1 year +</string>
+    <string name="txt_consoleA1">Still new, okay…</string>
+    <string name="txt_consoleA2">That’s ancient!!</string>
+    <string name="txt_consoleQ3">Has the device been dropped or have any water damage?</string>
+    <string name="txt_consoleQ3A1">Stop right there. We can’t help you further, you need to replace your console or check your insurance.</string>
+    <string name="txt_consoleQ3A2">Let’s move on then…</string>
+    <string name="txt_consoleQ4">Have you tried to reset your system? </string>
+    <string name="txt_consoleQ4A1">We do not know why it is not working by now</string>
+    <string name="txt_consoleQ4A2">That should have been the first thing you did</string>
 
 
     <!-- PC Question strings -->
