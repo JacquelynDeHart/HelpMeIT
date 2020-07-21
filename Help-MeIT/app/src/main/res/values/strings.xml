@@ -88,7 +88,7 @@
     <string name="txt_consoleQ8A1">Hmmm, that should have diagnosed the issue by now. Let’s move on.</string>
     <string name="txt_consoleQ8A2">That should have been the first thing you did. What are you waiting for? Restart it.</string>
     <string name="txt_consoleQ9">Is your issue still ongoing?</string>
-    <string name="txt_consoleQ9A1">We are sorry, we cannot further assist you. We suggest that you the device physically checked by a technician asap. You may be eligible for a replacement!</string>
+    <string name="txt_consoleQ9A1">We’re sorry, we cannot further assist you. We suggest that you the device physically checked by a technician asap. You may be eligible for a replacement!</string>
     <string name="txt_consoleQ9A2">Great! We appreciate you choosing us as your IT Specialist Support.</string>
 
     <!-- PC Question strings -->

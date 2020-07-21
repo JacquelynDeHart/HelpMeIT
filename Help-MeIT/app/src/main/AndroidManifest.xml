@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Console_Question9" />
+        <activity android:name=".Console_Question8" />
         <activity android:name=".Console_Question7" />
         <activity android:name=".Console_Question6" />
         <activity android:name=".Console_Question5" />
