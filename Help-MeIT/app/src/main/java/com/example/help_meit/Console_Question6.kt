@@ -23,13 +23,13 @@ class Console_Question6 : AppCompatActivity() {
             txt_consoleQ6A1.setVisibility(View.VISIBLE)
             txt_consoleQ6A2.setVisibility(View.INVISIBLE)
             btn_menuReturn.setVisibility(View.VISIBLE)
-            btn_next1.setVisibility(View.INVISIBLE)
+            btn_next.setVisibility(View.INVISIBLE)
         }
 
         btn_consoleQ6_2.setOnClickListener {
             txt_consoleQ6A2.setVisibility(View.VISIBLE)
             txt_consoleQ6A1.setVisibility(View.INVISIBLE)
-            btn_next1.setVisibility(View.VISIBLE)
+            btn_next.setVisibility(View.VISIBLE)
             btn_menuReturn.setVisibility(View.INVISIBLE)
         }
 
@@ -39,7 +39,7 @@ class Console_Question6 : AppCompatActivity() {
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
 
-        btn_next1.setOnClickListener {
+        btn_next.setOnClickListener {
             val intent = Intent(this, Console_Question7::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)

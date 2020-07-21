@@ -6,11 +6,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_console__question2.*
-import kotlinx.android.synthetic.main.activity_p_c__question2.*
-import kotlinx.android.synthetic.main.activity_phone__question2.*
-import kotlinx.android.synthetic.main.activity_phone__question2.btn_next
-import kotlinx.android.synthetic.main.activity_phone__question2.btn_yes
-import kotlinx.android.synthetic.main.activity_phone__question2.textView_reply_no
 
 class Console_Question2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +33,7 @@ class Console_Question2 : AppCompatActivity() {
         }
 
         btn_next1.setOnClickListener {
-            val intent = Intent(this, Console_Question5::class.java)
+            val intent = Intent(this, Console_Question4::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }

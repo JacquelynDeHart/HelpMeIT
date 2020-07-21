@@ -15,7 +15,8 @@ class Console_Question4 : AppCompatActivity() {
         btn_consoleQ4_1.setOnClickListener {
             txt_consoleQ4A1.setVisibility(View.VISIBLE)
             txt_consoleQ4A2.setVisibility(View.INVISIBLE)
-            btn_next.setVisibility(View.VISIBLE)
+            btn_next.setVisibility(View.INVISIBLE)
+            btn_menuReturn.setVisibility(View.VISIBLE)
         }
 
         btn_consoleQ4_2.setOnClickListener {
@@ -25,7 +26,13 @@ class Console_Question4 : AppCompatActivity() {
         }
 
         btn_next.setOnClickListener {
-            val intent = Intent(this, Console_Question4::class.java)
+            val intent = Intent(this, Console_Question5::class.java)
+            startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+        }
+
+        btn_menuReturn.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }
