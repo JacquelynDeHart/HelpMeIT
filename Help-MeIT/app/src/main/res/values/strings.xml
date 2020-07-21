@@ -79,7 +79,11 @@
     <string name="txt_consoleQ6">Is your device functioning yet?</string>
     <string name="txt_consoleQ6A1">Good, thank you for using our service. You can close the app now.</string>
     <string name="txt_consoleQ6A2">Go by a PC for your games, we obviously can’t help you.</string>
-
+    <string name="txt_consoleQ7">Sounds like your gaming console is very outdated, we suggest that you replace it immediately:</string>
+    <string name="btn_consoleQ7_1">SURE</string>
+    <string name="btn_consoleQ7_2">NO THANKS</string>
+    <string name="txt_consoleQ7A1">Thank you for using our support service. Hope you don’t go through another issue.</string>
+    <string name="txt_consoleQ7A2">Here’s a list of PC brands anyway, stop playing with those weak consoles.</string>
 
     <!-- PC Question strings -->
     <string name="txt_pcQ1_retort">You have horrible taste. Dismissed!</string>
