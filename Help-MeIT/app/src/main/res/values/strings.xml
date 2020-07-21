@@ -84,6 +84,9 @@
     <string name="btn_consoleQ7_2">NO THANKS</string>
     <string name="txt_consoleQ7A1">Thank you for using our support service. Hope you don’t go through another issue.</string>
     <string name="txt_consoleQ7A2">Here’s a list of PC brands anyway, stop playing with those weak consoles.</string>
+    <string name="txt_consoleQ8">Is your issue still ongoing?</string>
+    <string name="txt_consoleQ8A1">We are sorry, we cannot further assist you. We suggest that you the device physically checked by a technician asap. You may be eligible for a replacement!</string>
+    <string name="txt_consoleQ8A2">Great! We appreciate you choosing us as your IT Specialist Support.</string>
 
     <!-- PC Question strings -->
     <string name="txt_pcQ1_retort">You have horrible taste. Dismissed!</string>
