@@ -15,6 +15,24 @@ class Console_Question7 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_console__question7)
 
+        btn_consoleQ7_1.setOnClickListener {
+            txt_consoleQ7A1.setVisibility(View.VISIBLE)
+            txt_consoleQ7A2.setVisibility(View.INVISIBLE)
+            btn_menuReturn.setVisibility(View.VISIBLE)
+        }
+
+        btn_consoleQ7_2.setOnClickListener {
+            txt_consoleQ7A2.setVisibility(View.VISIBLE)
+            txt_consoleQ7A1.setVisibility(View.INVISIBLE)
+            btn_menuReturn.setVisibility(View.VISIBLE)
+        }
+
+        btn_menuReturn.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+        }
+
     }
     override fun finish() {
         super.finish()
