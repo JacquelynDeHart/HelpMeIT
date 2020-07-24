@@ -31,14 +31,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar4">
 
+        <Button
+            android:id="@+id/btn_menuq6phone3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_menuReturn"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:layout_height="102dp"
             android:layout_marginStart="151dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="162dp"
-            android:text="@string/txt_areYouSure"
+            android:text="@string/txt_pcQ3"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -77,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="123dp"
             android:orientation="horizontal"
-            android:text="@string/txt_pcQ3_no"
+            android:text="@string/txt_pcQ3_yes"
             android:textAlignment="center"
             android:textSize="30sp"
             android:visibility="invisible"
@@ -97,7 +110,9 @@
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_phoneq3" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_phoneq3"
+            app:layout_constraintVertical_bias="0.969" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

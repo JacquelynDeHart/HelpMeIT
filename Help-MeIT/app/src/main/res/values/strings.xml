@@ -97,13 +97,15 @@
     <string name="txt_consoleQ9A2">Great! We appreciate you choosing us as your IT Specialist Support.</string>
 
     <!-- PC Question strings -->
-    <string name="txt_pcQ1_retort">You have horrible taste. Dismissed!</string>
+    <string name="txt_pcQ1_retort">You\'d be more at home using the Pro edition of our app for only $99.</string>
     <string name="txt_pcQ2">Have you tried turning it off and on again?</string>
     <string name="txt_pcQ2_no">What are you waiting for?!</string>
+    <string name="txt_pcQ3">Have you recently \"downloaded\" more RAM?</string>
+    <string name="txt_pcQ3_yes">You have suffered from an \"internal exception.\" You may want to see your doctor.</string>
     <string name="txt_pcQ4">Is it even plugged in?</string>
     <string name="txt_pcQ4_yes">That\'s all I got</string>
     <string name="txt_pcQ4_no">So plug it in you nitwit!</string>
-    <string name="txt_pcQ5_yes">Fantastic! Now go away.</string>
+    <string name="txt_pcQ5_yes">It\'s a miracle! For future reference, one of your grandchildren could have provided the same service.</string>
     <string name="txt_pcQ5_no">The problem is between the chair and the keyboard.</string>
     <string name="txt_pcQ3_no">Well turn it off and on then!</string>
 </resources>

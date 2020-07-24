@@ -13,19 +13,27 @@ class PC_Question3 : AppCompatActivity() {
         setContentView(R.layout.activity_p_c__question3)
 
         btn_yesq3.setOnClickListener {
-            btn_nextq3.setVisibility(View.VISIBLE)
-            txt_phoneq3.setVisibility(View.INVISIBLE)
+            txt_phoneq3.setVisibility(View.VISIBLE)
+            btn_nextq3.setVisibility(View.INVISIBLE)
+            btn_menuq6phone3.setVisibility(View.VISIBLE)
         }
 
         btn_noq3.setOnClickListener {
-            txt_phoneq3.setVisibility(View.VISIBLE)
-            btn_nextq3.setVisibility(View.INVISIBLE)
+            btn_nextq3.setVisibility(View.VISIBLE)
+            txt_phoneq3.setVisibility(View.INVISIBLE)
+            btn_menuq6phone3.setVisibility(View.INVISIBLE)
         }
 
         btn_nextq3.setOnClickListener {
             val intent = Intent(this, PC_Question4::class.java)
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+        }
+
+        btn_menuq6phone3.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
+            startActivity(intent)
         }
     }
     override fun finish() {
