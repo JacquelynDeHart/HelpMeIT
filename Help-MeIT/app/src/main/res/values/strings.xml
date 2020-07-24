@@ -69,7 +69,7 @@
     <string name="txt_consoleQ2_2">1 year +</string>
     <string name="txt_consoleA1">Still new, okay…</string>
     <string name="txt_consoleA2">That’s ancient!!</string>
-    <string name="txt_consoleQ3">Has the device been dropped or have any water damage?</string>
+    <string name="txt_consoleQ3">Has the device been dropped or has any water damage?</string>
     <string name="txt_consoleQ3A1">Stop right there. We can’t help you further, you need to replace your console or check your insurance.</string>
     <string name="txt_consoleQ3A2">Let’s move on then…</string>
     <string name="txt_consoleQ5">Have you tried to reset your system? </string>
@@ -83,12 +83,12 @@
     <string name="btn_consoleQ7_1">SURE</string>
     <string name="btn_consoleQ7_2">NO THANKS</string>
     <string name="txt_consoleQ7A1">Thank you for using our support service. Hope you don’t go through another issue.</string>
-    <string name="txt_consoleQ7A2">Here’s a list of PC brands anyway, stop playing with those weak consoles.</string>
+    <string name="txt_consoleQ7A2">We still suggest for you to stop playing with those weak consoles and find a PC.</string>
     <string name="txt_consoleQ8">Have you attempted to reset your system?</string>
     <string name="txt_consoleQ8A1">Hmmm, that should have diagnosed the issue by now. Let’s move on.</string>
     <string name="txt_consoleQ8A2">That should have been the first thing you did. What are you waiting for? Restart it.</string>
     <string name="txt_consoleQ9">Is your issue still ongoing?</string>
-    <string name="txt_consoleQ9A1">We’re sorry, we cannot further assist you. We suggest that you the device physically checked by a technician asap. You may be eligible for a replacement!</string>
+    <string name="txt_consoleQ9A1">We’re sorry, we cannot further assist you. We suggest that you have the device physically checked by a technician asap. You may be eligible for a replacement!</string>
     <string name="txt_consoleQ9A2">Great! We appreciate you choosing us as your IT Specialist Support.</string>
 
     <!-- PC Question strings -->
