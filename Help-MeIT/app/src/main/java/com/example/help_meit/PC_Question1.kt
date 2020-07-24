@@ -30,6 +30,7 @@ class PC_Question1 : AppCompatActivity() {
                     startActivity(intent)
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
                 } else if (rbtn_Other.isChecked()) {
+                    btn_commit.setVisibility(View.INVISIBLE)
                     txt_retort.setVisibility(View.VISIBLE)
                     btn_next.setVisibility(View.VISIBLE)
                     radioGroup.setVisibility(View.INVISIBLE)
