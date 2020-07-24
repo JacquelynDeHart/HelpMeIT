@@ -14,7 +14,7 @@
     <string name="phone_description">phone icon</string>
     <string name="PC_description">PC icon</string>
     <string name="console_description">console icon</string>
-
+    <!-- Phone Question Strings-->
     <string name="mobile_phone">Mobile Phone</string>
     <string name="rbtn_google">Google</string>
     <string name="rbtn_samsung">Samsung</string>
@@ -55,6 +55,11 @@
     <string name="rbtn_switch">Nintendo Switch</string>
     <string name="btn_nextc1">Next</string>
     <string name="btn_selectc1">Select</string>
+
+    <string name="txt_phoneA1_yes">"Well that's a start"</string>
+    <string name="txt_phoneA2_yes">"Kinda hoping you would say that"</string>
+    <string name="txt_phoneA3_yes">Well that took long enough, eh</string>
+
 
     <!-- Console Question strings -->
     <string name="txt_consoleQ1">What is the brand of your gaming console?</string>

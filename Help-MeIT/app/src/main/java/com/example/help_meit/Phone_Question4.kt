@@ -14,11 +14,13 @@ class Phone_Question4 : AppCompatActivity() {
 
         btn_yes.setOnClickListener {
             btn_next.setVisibility(View.VISIBLE)
+            textView_replyYes.setVisibility(View.VISIBLE)
             text_phoneq4.setVisibility(View.INVISIBLE)
         }
 
         btn_no.setOnClickListener {
             text_phoneq4.setVisibility(View.VISIBLE)
+            textView_replyYes.setVisibility(View.INVISIBLE)
             btn_next.setVisibility(View.INVISIBLE)
         }
 

@@ -32,6 +32,21 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar5">
 
         <TextView
+            android:id="@+id/textView_replyYes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/txt_phoneA3_yes"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_yes" />
+
+        <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

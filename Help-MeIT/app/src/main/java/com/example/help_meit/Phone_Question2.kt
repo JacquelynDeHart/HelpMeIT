@@ -13,6 +13,7 @@ class Phone_Question2 : AppCompatActivity() {
 
         btn_yes.setOnClickListener {
             textView_reply_no.setVisibility(View.INVISIBLE)
+            textView_reply_yes.setVisibility(View.VISIBLE)
             btn_next.setVisibility(View.VISIBLE)
         }
 
@@ -24,6 +25,7 @@ class Phone_Question2 : AppCompatActivity() {
 
         btn_no.setOnClickListener {
             textView_reply_no.setVisibility(View.VISIBLE)
+            textView_reply_yes.setVisibility(View.INVISIBLE)
             btn_next.setVisibility(View.INVISIBLE)
         }
     }

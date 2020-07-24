@@ -5,6 +5,7 @@ import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.annotation.RequiresApi
 import kotlinx.android.synthetic.main.activity_console__question1.*
 import kotlinx.android.synthetic.main.activity_phone__question1.*
@@ -46,7 +47,8 @@ class Phone_Question1 : AppCompatActivity() {
                     txt_retort.setVisibility(View.INVISIBLE)
                     textView_samsungPhoneq1.setVisibility(View.INVISIBLE)
                 }
-            }
+            }else
+                Toast.makeText(this, "You really have to make a choide", Toast.LENGTH_SHORT).show()
         }
 
         btn_next.setOnClickListener {
