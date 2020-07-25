@@ -69,6 +69,12 @@
     <string name="txt_phoneQ4b_no">Definitely electronic internal bleeding going on. Take it to the nearest repair shop.
     There might not be any hope left.</string>
 
+    <string name="txt_phoneQ4a_2">"...in water?"</string>
+    <string name="txt_phoneQ4a_2_yes">You know that water is not good for electronics, right?</string>
+    <string name="txt_phoneQ4a_2_no">So you dropped it on the ground. Still not good, but could
+    be worse.</string>
+    <string name="btn_reset">Reset</string>
+
     <!-- Console Question strings -->
     <string name="txt_consoleQ1">What is the brand of your gaming console?</string>
     <string name="txt_q1_xbox">PC is better. Consider upgrading yourself.</string>

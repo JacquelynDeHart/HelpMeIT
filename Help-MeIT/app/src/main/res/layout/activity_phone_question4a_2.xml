@@ -7,9 +7,11 @@
     android:layout_height="match_parent">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar9"
-        android:layout_width="match_parent"
+        android:id="@+id/toolbar10"
+        android:layout_width="409dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
         android:background="#2196F3"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -27,16 +29,16 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar9">
+        app:layout_constraintTop_toBottomOf="@+id/toolbar10">
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/txt_phoneQ4b"
+            android:text="@string/txt_phoneQ4a_2"
             android:textAlignment="center"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,84 +46,70 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btn_Q4b_yes"
+            android:id="@+id/btn_Q4a_2_yes"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
-            android:layout_marginBottom="470dp"
+            android:layout_marginBottom="478dp"
             android:text="@string/btn_yes"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/btn_Q4b_no"
+            app:layout_constraintEnd_toStartOf="@+id/btn_Q4a_2_no"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <Button
-            android:id="@+id/btn_Q4b_no"
+            android:id="@+id/btn_Q4a_2_no"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
             android:layout_marginEnd="40dp"
-            android:layout_marginBottom="470dp"
+            android:layout_marginBottom="478dp"
             android:text="@string/btn_no"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/btn_Q4b_yes"
-            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+            app:layout_constraintStart_toEndOf="@+id/btn_Q4a_2_yes"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <TextView
-            android:id="@+id/textView_Q4b_yes"
-            android:layout_width="0dp"
+            android:id="@+id/textView_Q4a_2_yes"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="120dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/txt_phoneQ4b_yes"
+            android:text="@string/txt_phoneQ4a_2_yes"
             android:textAlignment="center"
             android:textSize="30sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_Q4b_yes" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_Q4a_2_no" />
 
         <TextView
-            android:id="@+id/textView_Q4b_no"
+            android:id="@+id/textView_Q4a_2_no"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="120dp"
             android:layout_marginEnd="8dp"
-            android:text="@string/txt_phoneQ4b_no"
+            android:text="@string/txt_phoneQ4a_2_no"
             android:textAlignment="center"
             android:textSize="30sp"
             android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_Q4b_yes" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_Q4a_2_yes" />
 
         <Button
-            android:id="@+id/btn_Q4b_next"
+            android:id="@+id/btn_Q4a2_to4b"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
             android:layout_marginBottom="20dp"
             android:text="@string/btn_next"
-            android:visibility="invisible"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <Button
-            android:id="@+id/btn_Q4b_toMenu"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="20dp"
-            android:text="@string/btn_menuReturn"
-            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
