@@ -60,6 +60,14 @@
     <string name="txt_phoneA2_yes">"Kinda hoping you would say that"</string>
     <string name="txt_phoneA3_yes">Well that took long enough, eh</string>
 
+    <string name="txt_phoneQ4a">Did you drop it?</string>
+    <string name="txt_phoneQ4a_yes">That is probably your issue. Electronic internal bleeding.</string>
+    <string name="txt_phoneQ4a_no">"That's a relief."</string>
+
+    <string name="txt_phoneQ4b">Was it in the case?</string>
+    <string name="txt_phoneQ4b_yes">Finally something positive being reported. Good job human.</string>
+    <string name="txt_phoneQ4b_no">Definitely electronic internal bleeding going on. Take it to the nearest repair shop.
+    There might not be any hope left.</string>
 
     <!-- Console Question strings -->
     <string name="txt_consoleQ1">What is the brand of your gaming console?</string>

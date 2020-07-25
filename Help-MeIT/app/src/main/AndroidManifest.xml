@@ -9,6 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Phone_Question4b"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Phone_Question4a"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Console_Question9"
             android:screenOrientation="portrait"/>
         <activity android:name=".Console_Question8"
