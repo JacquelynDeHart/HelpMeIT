@@ -32,10 +32,10 @@
     <string name="btn_yes">YES</string>
     <string name="btn_no">NO</string>
     <string name="txt_no">The power button is your only hope</string>
-    
+
     <string name="txt_areYouSure">Are you sure?</string>
     <string name="txt_notSure">Well turn it on then!</string>
-    
+
     <string name="txt_reset">Have you reset it?</string>
     <string name="txt_offOn">Turn it off and on again!!!</string>
 
@@ -74,6 +74,7 @@
     <string name="txt_phoneQ4a_2_no">So you dropped it on the ground. Still not good, but could
     be worse.</string>
     <string name="btn_reset">Reset</string>
+    <string name="txt_settings_retort">We knew that you would break it, so we took it away.</string>
 
     <!-- Console Question strings -->
     <string name="txt_consoleQ1">What is the brand of your gaming console?</string>

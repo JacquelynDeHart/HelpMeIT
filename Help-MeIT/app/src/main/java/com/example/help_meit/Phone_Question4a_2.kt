@@ -11,6 +11,7 @@ import kotlinx.android.synthetic.main.activity_phone_question4a_2.*
 class Phone_Question4a_2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        var number = 0
         setContentView(R.layout.activity_phone_question4a_2)
 
         btn_Q4a_2_yes.setOnClickListener {
@@ -23,10 +24,12 @@ class Phone_Question4a_2 : AppCompatActivity() {
             textView_Q4a_2_no.setVisibility(View.VISIBLE)
             textView_Q4a_2_yes.setVisibility(View.INVISIBLE)
 
+            number += 2
         }
 
         btn_Q4a2_to4b.setOnClickListener {
             val intent = Intent(this, Phone_Question4b::class.java)
+            intent.putExtra("number", number)
             startActivity(intent)
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
         }

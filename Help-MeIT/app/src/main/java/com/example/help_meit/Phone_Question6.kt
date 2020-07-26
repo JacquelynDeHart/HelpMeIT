@@ -23,6 +23,7 @@ class Phone_Question6 : AppCompatActivity() {
         btn_noq6phone.setOnClickListener {
             textView_noq6phone.setVisibility(View.VISIBLE)
             textView_yesq6phone.setVisibility(View.INVISIBLE)
+            btn_menuq6phone.setVisibility(View.VISIBLE)
         }
 
         val btn_menuq6phone = findViewById<View>(R.id.btn_menuq6phone) as Button
