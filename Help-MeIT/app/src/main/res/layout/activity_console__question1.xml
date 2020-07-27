@@ -17,7 +17,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleMarginStart="20dp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -36,41 +37,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="125dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="126dp"
-            android:layout_marginBottom="35dp"
             android:text="@string/txt_consoleQ1"
+            android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.204" />
-
-        <TextView
-            android:id="@+id/selection_text_console"
-            android:layout_width="301dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="111dp"
-            android:orientation="horizontal"
-            android:text="@string/console_textstring"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="#000000"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioGroup
             android:id="@+id/radioGroup"
-            android:layout_width="202dp"
+            android:layout_width="0dp"
             android:layout_height="116dp"
-            android:layout_marginStart="80dp"
+            android:layout_marginStart="75dp"
             android:layout_marginTop="35dp"
-            android:layout_marginEnd="80dp"
+            android:layout_marginEnd="75dp"
             android:layout_marginBottom="384dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -82,21 +66,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_xbox"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_playstation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_playstation"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_switch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_switch"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="24sp" />
 
         </RadioGroup>
 

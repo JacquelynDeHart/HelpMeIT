@@ -10,7 +10,7 @@ class Console_Question1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_console__question1)
-
+        setSupportActionBar(findViewById(R.id.toolbar2_pc))
         btn_nextc1.setOnClickListener{
             val intent = Intent(this, Console_Question2::class.java)
             startActivity(intent)
