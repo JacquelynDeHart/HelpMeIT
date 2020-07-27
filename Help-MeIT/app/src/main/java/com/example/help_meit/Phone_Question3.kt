@@ -11,7 +11,7 @@ class Phone_Question3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone__question3)
-
+        setSupportActionBar(findViewById(R.id.toolbar4))
         btn_yesq3.setOnClickListener {
             btn_nextq3.setVisibility(View.VISIBLE)
             textView_reply_yes.setVisibility(View.VISIBLE)

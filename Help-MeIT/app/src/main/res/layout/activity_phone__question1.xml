@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Phone_Question1">
+    tools:context=".Phone_Question1"
+    tools:ignore="LabelFor">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar2"
@@ -17,7 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleMargin="10dp"
+        app:titleMarginStart="32dp"
+        app:titleTextColor="@color/design_default_color_on_secondary" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -36,28 +40,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="125dp"
-            android:layout_marginTop="31dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="126dp"
             android:layout_marginBottom="35dp"
             android:text="@string/txt_phoneQ1"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/radioGroup"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/selection_text_" />
-
-        <TextView
-            android:id="@+id/selection_text_"
-            android:layout_width="250dp"
-            android:layout_height="61dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="111dp"
-            android:orientation="horizontal"
-            android:text="@string/mobile_phone"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/radioGroup"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -79,19 +69,22 @@
                 android:id="@+id/rbtn_Google"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_google" />
+                android:text="@string/rbtn_google"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_Samsung"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_samsung" />
+                android:text="@string/rbtn_samsung"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_Other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_other" />
+                android:text="@string/rbtn_other"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <Button
@@ -111,7 +104,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="110dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_tort"
             android:textAlignment="center"
@@ -126,22 +118,19 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
             android:text="@string/btn_next"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_retort" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/textView_samsungPhoneq1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="90dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_samsung"
             android:textAlignment="center"
@@ -156,7 +145,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="90dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_other"
             android:textAlignment="center"

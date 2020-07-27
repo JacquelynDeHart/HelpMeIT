@@ -10,7 +10,7 @@ class Phone_Question2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone__question2)
-
+        setSupportActionBar(findViewById(R.id.toolbar3))
         btn_yes.setOnClickListener {
             textView_reply_no.setVisibility(View.INVISIBLE)
             textView_reply_yes.setVisibility(View.VISIBLE)

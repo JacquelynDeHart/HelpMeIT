@@ -13,7 +13,7 @@ class Phone_Question4b : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val number = intent.getIntExtra("number", 0)
         setContentView(R.layout.activity_phone_question4b)
-
+        setSupportActionBar(findViewById(R.id.toolbar9))
         btn_Q4b_next.setOnClickListener {
             if(number <1){
                 val intent = Intent(this, Phone_Question5::class.java)

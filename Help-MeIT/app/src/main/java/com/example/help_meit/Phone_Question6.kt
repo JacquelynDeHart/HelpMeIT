@@ -11,7 +11,7 @@ class Phone_Question6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone__question6)
-
+        setSupportActionBar(findViewById(R.id.toolbar7))
         val btn_yesq6phone = findViewById<View>(R.id.btn_yesq6phone) as Button
         btn_yesq6phone.setOnClickListener {
             textView_yesq6phone.setVisibility(View.VISIBLE)

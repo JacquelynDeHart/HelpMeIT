@@ -13,7 +13,7 @@ class Phone_Question4a_2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         var number = 0
         setContentView(R.layout.activity_phone_question4a_2)
-
+        setSupportActionBar(findViewById(R.id.toolbar10))
         btn_Q4a_2_yes.setOnClickListener {
             textView_Q4a_2_yes.setVisibility(View.VISIBLE)
             textView_Q4a_2_no.setVisibility(View.INVISIBLE)

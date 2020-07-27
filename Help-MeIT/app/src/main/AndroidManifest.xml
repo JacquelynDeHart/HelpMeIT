@@ -15,12 +15,15 @@
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Phone_Question4b"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question4a_2"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question4a"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question9"
@@ -48,18 +51,23 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question6"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question5"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question4"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question3"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question2"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PC_Question5"
@@ -78,7 +86,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question1"
-            android:label="Help-MeIT"
+            android:label="Mobile Phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PC_Question1"
