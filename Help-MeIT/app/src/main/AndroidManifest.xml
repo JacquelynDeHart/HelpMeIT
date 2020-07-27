@@ -10,86 +10,102 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity android:name=".HelpMain"
+            android:label="@string/action_help"
             android:screenOrientation="portrait"/>
         <activity android:name=".SettingsMain"
+            android:label="@string/action_settings"
             android:screenOrientation="portrait"/>
         <activity
             android:name=".Phone_Question4b"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question4a_2"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question4a"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question9"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question8"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question7"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question6"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question5"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question4"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question3"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question2"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question6"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question5"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question4"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question3"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question2"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PC_Question5"
+            android:label="@string/PC_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PC_Question4"
+            android:label="@string/PC_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PC_Question3"
+            android:label="@string/PC_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PC_Question2"
+            android:label="@string/PC_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Console_Question1"
+            android:label="@string/console_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".Phone_Question1"
-            android:label="Mobile Phone"
+            android:label="@string/mobile_phone"
             android:screenOrientation="portrait" />
         <activity
             android:name=".PC_Question1"
+            android:label="@string/PC_textstring"
             android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"

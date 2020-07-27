@@ -11,7 +11,7 @@ class PC_Question5 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_p_c__question5)
-
+        setSupportActionBar(findViewById(R.id.toolbar7))
         btn_yesq6phone.setOnClickListener {
             textView_yesq6phone.setVisibility(View.VISIBLE)
             btn_menuq6phone.setVisibility(View.VISIBLE)

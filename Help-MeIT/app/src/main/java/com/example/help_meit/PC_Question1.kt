@@ -13,7 +13,7 @@ class PC_Question1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_p_c__question1)
-
+        setSupportActionBar(findViewById(R.id.toolbar2_pc))
         btn_next.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK

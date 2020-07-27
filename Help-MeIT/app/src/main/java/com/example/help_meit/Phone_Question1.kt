@@ -7,8 +7,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import androidx.annotation.StringRes
-import kotlinx.android.synthetic.main.activity_console__question1.*
 import kotlinx.android.synthetic.main.activity_phone__question1.*
 import kotlinx.android.synthetic.main.activity_phone__question1.radioGroup
 
@@ -18,7 +16,7 @@ class Phone_Question1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_phone__question1)
-        setSupportActionBar(findViewById(R.id.toolbar2))
+        setSupportActionBar(findViewById(R.id.toolbar2_pc))
         btn_commit.setOnClickListener {
 
 //logic for radio button selection//

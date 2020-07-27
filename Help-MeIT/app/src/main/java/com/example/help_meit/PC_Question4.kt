@@ -11,7 +11,7 @@ class PC_Question4 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_p_c__question4)
-
+        setSupportActionBar(findViewById(R.id.toolbar4))
         btn_yesq3.setOnClickListener {
             //"That's all I got"
             btn_nextq3.setVisibility(View.INVISIBLE)

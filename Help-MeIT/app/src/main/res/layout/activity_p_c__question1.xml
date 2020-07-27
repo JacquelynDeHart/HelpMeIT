@@ -7,7 +7,7 @@
     tools:context=".PC_Question1">
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar2"
+        android:id="@+id/toolbar2_pc"
         android:layout_width="415dp"
         android:layout_height="56dp"
         android:background="#2196F3"
@@ -17,7 +17,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:titleMarginStart="20dp"
+        app:titleTextColor="@color/design_default_color_on_secondary" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -36,28 +38,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="125dp"
-            android:layout_marginTop="31dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="126dp"
             android:layout_marginBottom="35dp"
             android:text="@string/txt_phoneQ1"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toTopOf="@+id/radioGroup"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/selection_text_" />
-
-        <TextView
-            android:id="@+id/selection_text_"
-            android:layout_width="301dp"
-            android:layout_height="65dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="52dp"
-            android:orientation="horizontal"
-            android:text="@string/PC_textstring"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-            android:textColor="#000000"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/radioGroup"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -79,19 +66,22 @@
                 android:id="@+id/rbtn_Google"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_google" />
+                android:text="@string/rbtn_google"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_hp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_hp" />
+                android:text="@string/rbtn_hp"
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_Other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_apple" />
+                android:text="@string/rbtn_apple"
+                android:textSize="24sp" />
         </RadioGroup>
 
         <Button
@@ -111,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="137dp"
-            android:layout_marginTop="110dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="138dp"
             android:text="@string/txt_pcQ1_retort"
             android:textSize="18sp"
@@ -125,15 +115,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
             android:text="@string/btn_menuReturn"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_retort" />
+            app:layout_constraintStart_toStartOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
