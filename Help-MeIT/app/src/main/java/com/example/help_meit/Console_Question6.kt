@@ -15,6 +15,7 @@ class Console_Question6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_console__question6)
+        setSupportActionBar(findViewById(R.id.toolbar))
 
         val btn_consoleQ6_1: Button = findViewById<Button>(R.id.btn_consoleQ6_1)
         val btn_consoleQ6_2: Button = findViewById<Button>(R.id.btn_consoleQ6_2)

@@ -10,6 +10,7 @@ class Console_Question9 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_console__question9)
+        setSupportActionBar(findViewById(R.id.toolbar))
 
         btn_consoleQ9_1.setOnClickListener {
             txt_consoleQ9A1.setVisibility(View.VISIBLE)
