@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleMarginTop="20dp"
+        app:titleMarginTop="3dp"
         app:titleTextColor="@color/design_default_color_on_secondary" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
