@@ -38,21 +38,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="125dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="24dp"
             android:layout_marginEnd="126dp"
-            android:layout_marginBottom="35dp"
-            android:text="@string/txt_phoneQ1"
+            android:layout_marginBottom="24dp"
+            android:text="@string/txt_pcQ1"
             android:textAlignment="center"
             android:textSize="30sp"
             app:layout_constraintBottom_toTopOf="@+id/radioGroup"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <RadioGroup
             android:id="@+id/radioGroup"
-            android:layout_width="202dp"
-            android:layout_height="116dp"
+            android:layout_width="201dp"
+            android:layout_height="138dp"
             android:layout_marginStart="80dp"
             android:layout_marginTop="35dp"
             android:layout_marginEnd="80dp"
@@ -63,24 +64,31 @@
             app:layout_constraintTop_toBottomOf="@+id/textView">
 
             <RadioButton
-                android:id="@+id/rbtn_Google"
+                android:id="@+id/rbtn_windows"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_google"
+                android:text="@string/rbtn_windows"
                 android:textSize="24sp" />
 
             <RadioButton
-                android:id="@+id/rbtn_hp"
+                android:id="@+id/rbtn_mac"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_hp"
+                android:text="@string/rbtn_mac"
                 android:textSize="24sp" />
 
             <RadioButton
-                android:id="@+id/rbtn_Other"
+                android:id="@+id/rbtn_linux"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/rbtn_apple"
+                android:text="@string/rbtn_linux"
+                android:textSize="24sp" />
+
+            <RadioButton
+                android:id="@+id/rbtn_other"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbtn_other"
                 android:textSize="24sp" />
         </RadioGroup>
 
@@ -97,15 +105,136 @@
             app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
         <TextView
-            android:id="@+id/txt_retort"
+            android:id="@+id/txt_retort_mac"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="137dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="138dp"
-            android:text="@string/txt_pcQ1_retort"
-            android:textSize="18sp"
+            android:text="@string/txt_pcQ1_mac"
+            android:textColor="#009C65"
+            android:textSize="24sp"
             android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_commit" />
+
+        <TextView
+            android:id="@+id/txt_windows_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/txt_windows_select"
+            android:textAlignment="center"
+            android:textColor="#0097A7"
+            android:textSize="30sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <TextView
+            android:id="@+id/txt_mac_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_mac_select"
+            android:textAlignment="center"
+            android:textColor="#009C65"
+            android:textSize="30sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <TextView
+            android:id="@+id/txt_linux_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_linux_select"
+            android:textAlignment="center"
+            android:textColor="#750000"
+            android:textSize="30sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <TextView
+            android:id="@+id/txt_other_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_other_select"
+            android:textAlignment="center"
+            android:textColor="#009C65"
+            android:textSize="30sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <TextView
+            android:id="@+id/txt_retort_linux"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_pcQ1_linux"
+            android:textColor="#750000"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_commit" />
+
+        <TextView
+            android:id="@+id/txt_retort_windows"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_pcQ1_windows"
+            android:textColor="#0097A7"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_commit" />
+
+        <TextView
+            android:id="@+id/txt_retort_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="137dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="138dp"
+            android:text="@string/txt_pcQ1_other"
+            android:textColor="#009C65"
+            android:textSize="24sp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/btn_next"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_commit" />
@@ -117,8 +246,21 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/btn_menuReturn"
+            android:text="@string/btn_next"
             android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btn_menuReturn"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />

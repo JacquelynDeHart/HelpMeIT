@@ -20,11 +20,13 @@
     <string name="rbtn_other">Other</string>
     <string name="rbtn_apple">Apple</string>
     <string name="rbtn_hp">HP</string>
+    <string name="rbtn_windows">Windows</string>
+    <string name="rbtn_mac">Mac</string>
+    <string name="rbtn_linux">Linux</string>
     <string name="btn_select">Select</string>
-    <string name="txt_tort">"Drinking the Kool-Aid, huh"</string>
+    <string name="txt_tort">"Drinking the Kool-Aid, huh?"</string>
     <string name="txt_samsung">"You must really like bloatware apps eating your memory."</string>
     <string name="txt_other">What are you even doing with that trash? Dismissed.</string>
-
     <string name="btn_next">Next</string>
 
     <string name="txt_isItOn">Is it on?</string>
@@ -111,7 +113,15 @@
     <string name="txt_consoleQ9A2">Great! We appreciate you choosing us as your IT Specialist Support.</string>
 
     <!-- PC Question strings -->
-    <string name="txt_pcQ1_retort">You\'d be more at home using the Pro edition of our app for only $99.</string>
+    <string name="txt_pcQ1">What is the operating system?</string>string>
+    <string name="txt_pcQ1_mac">You\'d be more at home using the Pro edition of our app for only $99.</string>
+    <string name="txt_pcQ1_linux">You are overqualified to be using this app. Proceed at your discretion.</string>
+    <string name="txt_pcQ1_other">What else is there?</string>
+    <string name="txt_pcQ1_windows">I\'m going to assume your version was released AFTER the year 2000. Otherwise, you\'re on your own.</string>
+    <string name="txt_windows_select">You selected: WINDOWS</string>
+    <string name="txt_mac_select">You selected: MAC</string>
+    <string name="txt_linux_select">You selected: LINUX</string>
+    <string name="txt_other_select">You selected: OTHER</string>
     <string name="txt_pcQ2">Have you tried turning it off and on again?</string>
     <string name="txt_pcQ2_no">What are you waiting for?!</string>
     <string name="txt_pcQ3">Have you recently \"downloaded\" more RAM?</string>
