@@ -4,7 +4,6 @@
     <string name="action_help">Help</string>
     <string name="txt_phoneQ1">What is the make of your device?</string>
 
-
     <string name="title">IT Support Service</string>
     <string name="select_textstring">Select which device you need assistance on:</string>
     <string name="phone_textstring">Mobile Phone</string>
@@ -23,7 +22,7 @@
     <string name="rbtn_hp">HP</string>
     <string name="btn_select">Select</string>
     <string name="txt_tort">"Drinking the Kool-Aid, huh"</string>
-    <string name="txt_samsung">"You must really like bloatware apps eating your memory"</string>
+    <string name="txt_samsung">"You must really like bloatware apps eating your memory."</string>
     <string name="txt_other">What are you even doing with that trash? Dismissed.</string>
 
     <string name="btn_next">Next</string>
@@ -31,7 +30,7 @@
     <string name="txt_isItOn">Is it on?</string>
     <string name="btn_yes">YES</string>
     <string name="btn_no">NO</string>
-    <string name="txt_no">The power button is your only hope</string>
+    <string name="txt_no">The power button is your only hope.</string>
 
     <string name="txt_areYouSure">Are you sure?</string>
     <string name="txt_notSure">Well turn it on then!</string>
@@ -56,9 +55,9 @@
     <string name="btn_nextc1">Next</string>
     <string name="btn_selectc1">Select</string>
 
-    <string name="txt_phoneA1_yes">"Well that's a start"</string>
-    <string name="txt_phoneA2_yes">"Kinda hoping you would say that"</string>
-    <string name="txt_phoneA3_yes">Well that took long enough, eh</string>
+    <string name="txt_phoneA1_yes">"Well that's a start."</string>
+    <string name="txt_phoneA2_yes">"Kinda hoping you would say that."</string>
+    <string name="txt_phoneA3_yes">Well that took long enough, eh?</string>
 
     <string name="txt_phoneQ4a">Did you drop it?</string>
     <string name="txt_phoneQ4a_yes">That is probably your issue. Electronic internal bleeding.</string>
@@ -89,21 +88,21 @@
     <string name="txt_consoleQ2_2">1 year +</string>
     <string name="txt_consoleA1">Still new, okay…</string>
     <string name="txt_consoleA2">That’s ancient!!</string>
-    <string name="txt_consoleQ3">Has the device been dropped or has any water damage?</string>
-    <string name="txt_consoleQ3A1">Stop right there. We can’t help you further, you need to replace your console or check your insurance.</string>
+    <string name="txt_consoleQ3">Has the device been dropped or is there any water damage?</string>
+    <string name="txt_consoleQ3A1">Stop right there. We can’t help you further. You need to replace your console. Go check your insurance.</string>
     <string name="txt_consoleQ3A2">Let’s move on then…</string>
     <string name="txt_consoleQ5">Have you tried to reset your system? </string>
-    <string name="txt_consoleQ5A1">That should have done the trick! If it didn’t let us move on then.</string>
+    <string name="txt_consoleQ5A1">That should have done the trick! If it didn’t, let us move on.</string>
     <string name="txt_consoleQ5A2">C’mon! That should have been the first thing you did!</string>
-    <string name="txt_consoleQ4A2">That’s surprising that you haven’t dropped/damaged that ancient thing.</string>
+    <string name="txt_consoleQ4A2">It’s surprising you haven’t dropped or damaged that ancient thing.</string>
     <string name="txt_consoleQ6">Is your device functioning yet?</string>
     <string name="txt_consoleQ6A1">Good, thank you for using our service. You can close the app now.</string>
-    <string name="txt_consoleQ6A2">Go by a PC for your games, we obviously can’t help you.</string>
-    <string name="txt_consoleQ7">Sounds like your gaming console is very outdated, we suggest that you replace it immediately:</string>
+    <string name="txt_consoleQ6A2">Go buy a PC for your games, we obviously can’t help you.</string>
+    <string name="txt_consoleQ7">Sounds like your gaming console is very outdated, we suggest you replace it immediately:</string>
     <string name="btn_consoleQ7_1">SURE</string>
     <string name="btn_consoleQ7_2">NO THANKS</string>
-    <string name="txt_consoleQ7A1">Thank you for using our support service. Hope you don’t go through another issue.</string>
-    <string name="txt_consoleQ7A2">We still suggest for you to stop playing with those weak consoles and find a PC.</string>
+    <string name="txt_consoleQ7A1">Thank you for using our support service. Hope you don’t have another issue.</string>
+    <string name="txt_consoleQ7A2">We still suggest you stop playing with those weak consoles and purchase a PC.</string>
     <string name="txt_consoleQ8">Have you attempted to reset your system?</string>
     <string name="txt_consoleQ8A1">Hmmm, that should have diagnosed the issue by now. Let’s move on.</string>
     <string name="txt_consoleQ8A2">That should have been the first thing you did. What are you waiting for? Restart it.</string>
