@@ -67,7 +67,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_xbox"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
             <RadioButton
                 android:id="@+id/rbtn_playstation"
@@ -75,7 +76,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_playstation"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
             <RadioButton
                 android:id="@+id/rbtn_switch"
@@ -83,7 +85,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_switch"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
         </RadioGroup>
 

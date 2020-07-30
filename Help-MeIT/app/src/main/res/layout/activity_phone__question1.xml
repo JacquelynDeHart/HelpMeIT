@@ -70,21 +70,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_google"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
             <RadioButton
                 android:id="@+id/rbtn_Samsung"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_samsung"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
             <RadioButton
                 android:id="@+id/rbtn_Other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_other"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
         </RadioGroup>
 
         <Button

@@ -68,28 +68,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_windows"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
             <RadioButton
                 android:id="@+id/rbtn_mac"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_mac"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
             <RadioButton
                 android:id="@+id/rbtn_linux"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_linux"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
 
             <RadioButton
                 android:id="@+id/rbtn_other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rbtn_other"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                android:buttonTint="@color/radioButtonColor"/>
         </RadioGroup>
 
         <Button
