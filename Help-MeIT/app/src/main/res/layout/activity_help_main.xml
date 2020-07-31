@@ -31,6 +31,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="20dp"
         android:text="@string/btn_menuReturn"
+        android:background="#00695C"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
