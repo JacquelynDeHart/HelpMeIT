@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D8D5D5"
     tools:context=".PC_Question5">
 
     <androidx.appcompat.widget.Toolbar
@@ -18,8 +19,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:titleTextColor="@color/design_default_color_on_secondary"
-        app:titleMarginStart="20dp"/>
+        app:titleMarginStart="20dp"
+        app:titleTextColor="@color/design_default_color_on_secondary" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -39,8 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@string/txt_isItWorking"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -53,8 +54,8 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
             android:layout_marginBottom="478dp"
-            android:text="@string/btn_yes"
             android:background="#00695C"
+            android:text="@string/btn_yes"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btn_noq6phone"
@@ -69,8 +70,8 @@
             android:layout_marginTop="60dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="478dp"
-            android:text="@string/btn_no"
             android:background="#C62828"
+            android:text="@string/btn_no"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -83,8 +84,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="120dp"
             android:text="@string/txt_pcQ5_yes"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
@@ -97,8 +98,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="120dp"
             android:text="@string/txt_pcQ5_no"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
@@ -112,8 +113,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/btn_menuReturn"
             android:background="#00695C"
+            android:text="@string/btn_menuReturn"
             android:textColor="#FFFFFF"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"

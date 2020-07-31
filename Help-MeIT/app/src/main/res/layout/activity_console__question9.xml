@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D8D5D5"
     tools:context=".Console_Question9">
 
     <androidx.appcompat.widget.Toolbar
@@ -17,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:titleMarginStart="32dp"
-        app:titleTextColor="@color/design_default_color_on_secondary"/>
+        app:titleTextColor="@color/design_default_color_on_secondary" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -39,8 +40,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="@string/txt_consoleQ9"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -53,8 +54,8 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
             android:layout_marginBottom="478dp"
-            android:text="@string/btn_yes"
             android:background="#00695C"
+            android:text="@string/btn_yes"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btn_consoleQ9_2"
@@ -69,8 +70,8 @@
             android:layout_marginTop="60dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="478dp"
-            android:text="@string/btn_no"
             android:background="#C62828"
+            android:text="@string/btn_no"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -82,8 +83,8 @@
             android:layout_width="337dp"
             android:layout_height="323dp"
             android:text="@string/txt_consoleQ9A1"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -100,8 +101,8 @@
             android:layout_marginTop="120dp"
             android:layout_marginEnd="20dp"
             android:text="@string/txt_consoleQ9A2"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:visibility="invisible"
             app:layout_constraintBottom_toTopOf="@+id/btn_menuReturn"
@@ -115,8 +116,8 @@
             android:id="@+id/btn_menuReturn"
             android:layout_width="339dp"
             android:layout_height="wrap_content"
-            android:text="@string/btn_menuReturn"
             android:background="#00695C"
+            android:text="@string/btn_menuReturn"
             android:textColor="#FFFFFF"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D8D5D5"
     tools:context=".PC_Question1">
 
     <androidx.appcompat.widget.Toolbar
@@ -43,8 +44,8 @@
             android:layout_marginBottom="24dp"
             android:text="@string/txt_pcQ1"
             android:textAlignment="center"
-            android:textSize="30sp"
             android:textColor="#000000"
+            android:textSize="30sp"
             app:layout_constraintBottom_toTopOf="@+id/radioGroup"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -68,33 +69,33 @@
                 android:id="@+id/rbtn_windows"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_windows"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_mac"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_mac"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_linux"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_linux"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_other"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
         </RadioGroup>
 
         <Button
@@ -104,8 +105,8 @@
             android:layout_marginStart="136dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="137dp"
-            android:text="@string/btn_select"
             android:background="#2196F3"
+            android:text="@string/btn_select"
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -253,8 +254,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/btn_next"
             android:background="#2196F3"
+            android:text="@string/btn_next"
             android:textColor="#FFFFFF"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -268,8 +269,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/btn_menuReturn"
             android:background="#00695C"
+            android:text="@string/btn_menuReturn"
             android:textColor="#FFFFFF"
             android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D8D5D5"
     tools:context=".Console_Question1">
 
     <androidx.appcompat.widget.Toolbar
@@ -65,28 +66,28 @@
                 android:id="@+id/rbtn_xbox"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_xbox"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_playstation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_playstation"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_switch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_switch"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
         </RadioGroup>
 
@@ -97,8 +98,8 @@
             android:layout_marginStart="136dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="137dp"
-            android:text="@string/btn_selectc1"
             android:background="#2196F3"
+            android:text="@string/btn_selectc1"
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -218,8 +219,8 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/btn_nextc1"
             android:background="#2196F3"
+            android:text="@string/btn_nextc1"
             android:textColor="#FFFFFF"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
