@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D8D5D5"
     tools:context=".Phone_Question1"
     tools:ignore="LabelFor">
 
@@ -69,25 +70,25 @@
                 android:id="@+id/rbtn_Google"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_google"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_Samsung"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_samsung"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
 
             <RadioButton
                 android:id="@+id/rbtn_Other"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/radioButtonColor"
                 android:text="@string/rbtn_other"
-                android:textSize="24sp"
-                android:buttonTint="@color/radioButtonColor"/>
+                android:textSize="24sp" />
         </RadioGroup>
 
         <Button
@@ -97,8 +98,8 @@
             android:layout_marginStart="136dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="137dp"
-            android:text="@string/btn_select"
             android:background="#2196F3"
+            android:text="@string/btn_select"
             android:textColor="#FFFFFF"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -111,8 +112,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_tort"
-            android:textColor="#750000"
             android:textAlignment="center"
+            android:textColor="#750000"
             android:textSize="30sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
@@ -126,8 +127,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/btn_next"
             android:background="#2196F3"
+            android:text="@string/btn_next"
             android:textColor="#FFFFFF"
             android:visibility="gone"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -141,8 +142,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_samsung"
-            android:textColor="#0097A7"
             android:textAlignment="center"
+            android:textColor="#0097A7"
             android:textSize="30sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
@@ -156,8 +157,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_other"
-            android:textColor="#009C65"
             android:textAlignment="center"
+            android:textColor="#009C65"
             android:textSize="30sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"

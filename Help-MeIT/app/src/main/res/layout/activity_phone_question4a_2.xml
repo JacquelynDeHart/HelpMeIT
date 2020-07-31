@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#D8D5D5">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar10"
@@ -55,8 +55,8 @@
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
             android:layout_marginBottom="478dp"
-            android:text="@string/btn_yes"
             android:background="#00695C"
+            android:text="@string/btn_yes"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/btn_Q4a_2_no"
@@ -71,8 +71,8 @@
             android:layout_marginTop="60dp"
             android:layout_marginEnd="40dp"
             android:layout_marginBottom="478dp"
-            android:text="@string/btn_no"
             android:background="#C62828"
+            android:text="@string/btn_no"
             android:textColor="#FFFFFF"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -87,8 +87,8 @@
             android:layout_marginTop="120dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_phoneQ4a_2_yes"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
@@ -103,8 +103,8 @@
             android:layout_marginTop="120dp"
             android:layout_marginEnd="8dp"
             android:text="@string/txt_phoneQ4a_2_no"
-            android:textColor="#000000"
             android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="30sp"
             android:visibility="invisible"
             app:layout_constraintEnd_toEndOf="parent"
@@ -118,9 +118,10 @@
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="20dp"
-            android:text="@string/btn_next"
             android:background="#2196F3"
+            android:text="@string/btn_next"
             android:textColor="#FFFFFF"
+            android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
