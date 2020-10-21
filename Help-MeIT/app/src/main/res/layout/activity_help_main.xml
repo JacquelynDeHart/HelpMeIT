@@ -37,4 +37,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <!--<com.google.android.gms.ads.AdView
+        xmlns:ads="https://shemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/admob_unit_id"/>-->
 </androidx.constraintlayout.widget.ConstraintLayout>

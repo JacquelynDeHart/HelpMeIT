@@ -132,4 +132,7 @@
     <string name="txt_pcQ5_yes">It\'s a miracle! For future reference, one of your grandchildren could have provided the same service.</string>
     <string name="txt_pcQ5_no">The problem is between the chair and the keyboard.</string>
     <string name="txt_pcQ3_no">Well turn it off and on then!</string>
+
+    <string name="admob_app_id">ca-app-pub-1039025163064107~8905441161</string>
+    <string name="admob_unit_id">ca-app-pub-3940256099942544/6300978111</string>
 </resources>
